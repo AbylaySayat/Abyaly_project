@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>Abylay Web Page</title>
+  <link rel="icon" href="img/logoa.jpg" sizes="40x40" type="image/png">
+  <!-- EXTERNAL CSS LINK  -->
+  <link rel="stylesheet" href="css/style.css" />
+  <!-- GOOGLE FONT LINKS -->
+  <link href="https://fonts.googleapis.com/css?family=Lato:700&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css?family=Muli:500&display=swap" rel="stylesheet" />
+  <!-- FONTAWESOME LINK  -->
+  <script src="https://kit.fontawesome.com/4a3b1f73a2.js" crossorigin="anonymous"></script>
+  <!-- SLICK SLIDER LINK -->
+  <!-- <script src="http://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script> -->
+  <script src="js/jQuery3.4.1.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
+
+  <style>
+    .aboutMe {
+      background-image: url(img/photo_2023-10-15_21-06-54.jpg);
+      height: 100vh;
+      background-position: 0 30%;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="wrapper">
+
+    <!-- NAVIGATION STARTS (DESKTOP VIEW AFTER 768px) ------------------->
+    <nav class="navBar">
+      <div id="navMenu">
+        <a href="#intro" class="logo">
+          <span id="name"> ABYLAY <br /> SAYATULY </span>
+          <span id="profession">Student, Filantrop</span>
+        </a>
+        <a href="#about" class="navItems"> about </a>
+        <a href="#projects" class="navItems"> projects </a>
+        <a href="#skills" class="navItems"> skills </a>
+        <a href="#education" class="navItems"> education </a>
+        <a href="#contact" class="navItems"> contact </a>
+        <a href="https://www.bing.com/ck/a?!&&p=6c719d612209c5caJmltdHM9MTY5NzQxNDQwMCZpZ3VpZD0zYTFiZTUyZi0xMTkwLTZiNDUtMTc0Yi1lYTYzMTBmYjZhYmEmaW5zaWQ9NTE5OQ&ptn=3&hsh=3&fclid=3a1be52f-1190-6b45-174b-ea6310fb6aba&psq=resume&u=a1aHR0cHM6Ly93d3cucmVzdW1lLmNvbS8&ntb=1"
+          target="_blank" class="navItems resumeHover">
+          resume
+        </a>
+      </div>
+    </nav>
+
+    <nav class="topHeading" id="logoHeading">
+
+      <div class="mobileViewNavbar">
+
+        <div id="toggleOpen"> &#9776; </div>
+
+      
+      </div>
+
+    </nav>
+    <!-- NAVIGATION ENDS  ------------------->
+
+    <!-- HIDDEN NAVIGATION ITEMS STARTS (MOBILE VIEW) -->
+    <nav class="hiddenMenu" id="showHide">
+      <!-- <div id="toggleClose"> &#10005; </div> -->
+      <div id="toggleClose"></div>
+      <div id="navMenu hiddenItems">
+        <a href="#about" class="navItems about" id="navItems"> about </a>
+        <a href="#projects" class="navItems projects" id="navItems"> projects </a>
+        <a href="#skills" class="navItems skills" id="navItems"> skills </a>
+        <a href="#education" class="navItems education" id="navItems"> education </a>
+        <a href="#contact" class="navItems contact" id="navItems"> contact </a>
+        <a href="https://drive.google.com/file/d/1QUwkEaHDYDb-tZ4b7jHtogKhlJmjr_qL/view?usp=sharing" target="_blank"
+          class="navItems resumeHover" id="navItems">
+          resume
+        </a>
+      </div>
+
+    </nav>
+
+    <section class="section scrollspy" id="intro">
+      <div class="introWrapper">
+        <section class="aboutMe parallaxContainer">
+          <h2>
+            WELCOME TO MY </a> <br />
+            WEB WEB-PAGE</a>
+          </h2>
+        </section>
+      </div>
+    </section>
+    <!-- INTRO SECTION ENDS -->
+
+    <!-- ABOUT SECTION STARTS -->
+    <section class="section scrollspy" id="about">
+      <h1>ABOUT</h1>
+      <div class="aboutSection commonProperty">
+        <!-- <h3>Hello!</h3> -->
+        <p id="hello" style="text-align: justify;">
+          I am Abylay, a determined and aspiring individual at the age of 19, proudly representing the Middle
+          Juz-Argyn. My journey began in the captivating realm of Almaty city, precisely within the tranquil village of
+          Boralday in the Almaty district. For 11 foundational years of my life, I immersed myself in the pursuit of
+          knowledge within this very community.
+
+          In the turning point year of 2021, I set foot on a significant academic path, securing admission to the
+          esteemed International Information Technology University (IITU). Currently, I stand strong in my third year at
+          the university, unwavering in my passion for programming—the art that truly resonates with my soul. My days
+          and nights are dedicated to relentless studying, all fueled by the burning desire to achieve my dream of
+          excelling as a skilled web developer in the upcoming year. <br /><br />
+          <!-- I'm available for remote work - Do give me a chance to work with
+            you.
+            <a href="mailto:sharmapriyanka84510@gmail.com" id="contactMe">Contact me</a> -->
+        </p>
+        <div class="currentFocus">
+          <h4>Current Focus: </h4>
+          <p>Learning Programming Languages </p>
+        </div>
+
+      </div>
+    </section>
+    <section class="section scrollspy" id="projects">
+      <h1>PROJECTS</h1>
+      <div class="commonProperty projectsSection">
+        <!-- PROJECT SLIDER - 1 -->
+        <div class="box box1">
+          <div class="imgGallary">
+            <div class="image">
+              <img src="img/Quizpr.png" alt="">
+            </div>
+          </div>
+            <h4 style="text-align: center;">QuizAPP <br><br>
+              <a style="text-align: center;" href="https://github.com/lassiecoder/mutual-funding-app" id="contactMe">View</a> 
+            </h4>
+        </div>
+        <div class="box box1">
+          <div class="imgGallary">
+            <div class="image">
+              <img src="img/timer.png" alt="">
+            </div>
+          </div>
+            <h4 style="text-align: center;">TimeWatch<br><br>
+              <a href="index3.html" id="contactMe">View</a> 
+            </h4>
+        </div>
+        
+       
+        </div>
+      </div>
+    </section>
+  <section class="section scrollspy" id="skills">
+    <h1>SKILLS</h1>
+    <div class="commonProperty skillsSection">
+      <div class="box box1">
+        <img src="img/html5.png" alt="">
+        <h4>HTML5</h4>
+      </div>
+      <div class="box box2">
+        <img src="img/css3.png" alt="">
+        <h4>CSS3</h4>
+      </div>
+     
+      <div class="box box4">
+        <img src="img/javascript.png" alt="">
+        <h4>JavaScript</h4>
+      </div>
+      <div class="box box5">
+        <img src="img/logo4.png" alt="">
+        <h4>Java</h4>
+      </div>
+      <div class="box box6">
+        <img src="img/logo5.png" alt="">
+        <h4>C++</h4>
+      </div>
+      <div class="box box7">
+        <img src="img/github.png" alt="">
+        <h4>GitHub</h4>
+      </div>
+    </div>
+  </section>
+  <!-- SKILLS SECTION ENDS -->
+
+  <!-- EDUCATION SECTION STARTS -->
+  <section class="section scrollspy" id="education">
+    <h1>EDUCATION</h1>
+    <div class="commonProperty educationSection">
+      <!-- BOX-1 -->
+      <div class="box box1">
+        <div class="boxHead">
+          <h3>№40 middle school of Almaty</h3>
+          <h5>2010 - 2021</h5>
+        </div>
+        <p class="durationAndDegree">
+          Middle school student
+        </p>
+      </div>
+      <!-- BOX-2 -->
+      <div class="box box2">
+        <div class="boxHead">
+          <h3>IITU</h3>
+          <h5>2021 - 2025</h5>
+        </div>
+        <p class="durationAndDegree">
+          Software Engineering
+        </p>
+      </div>
+    </div>
+  </section>
+  <!-- EDUCATION SECTION ENDS -->
+
+  <!-- CONTACT SECTION STARTS -->
+  <section class="section scrollspy" id="contact">
+    <h1>CONTACT</h1>
+    <div class="commonProperty contactSection">
+      <div class="box box1">
+        <a href="https://twitter.com/lassiecoder" target="_blank">
+          <i class="fab fa-twitter"></i>
+        </a>
+      </div>
+      <div class="box box2">
+        <a href="https://www.instagram.com/lassiecoder/" target="_blank">
+          <i class="fab fa-instagram"></i>
+        </a>
+      </div>
+
+      <div class="box box4">
+        <a href="mailto:sharmapriyanka84510@gmail.com" target="_blank">
+          <i class="fas fa-envelope"></i>
+        </a>
+      </div>
+      <div class="box box5">
+        <a href="https://github.com/lassiecoder" target="_blank">
+          <i class="fab fa-github-alt"></i>
+        </a>
+      </div>
+      <div class="box box6">
+        <a href="https://codepen.io/lassiecoder/" target="_blank">
+          <i class="fab fa-codepen"></i>
+        </a>
+      </div>
+    </div>
+  </section>
+  <!-- CONTACT SECTION ENDS -->
+
+  <!-- SECTION ENDS ---------------------------------------------->
+  </div>
+
+  <!-- JS LINKS -->
+  <script src="js/script.js"></script>
+  <script src="js/jQuery.js"></script>
+  <script src="js/simple-scrollspy.min.js"></script>
+
+  <script>
+      window.addEventListener("hashchange", function () {
+        window.scrollByPages(1);
+      });
+    </script>
+
+</body>
+
+</html>
